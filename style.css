@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#section-1,
+#section-2,
+#section-3,
+#section-4,
+#footer {
+  min-width: 1000px;
+  padding: 0px 25px;
+}
+#section-1 {
+  background-color: #1f2937;
+}
+
+#section-1-header {
+  height: 120px;
+  display: flex;
+  padding-top: 25px;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+#section-1-header > div {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#section-1-main {
+  padding-top: 25px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+#section-1-main > .left-side {
+  min-width: 300px;
+  width: 40%;
+  max-width: 500px;
+}
+
+#section-1-main > .right-side {
+  min-width: 400px;
+  width: 40%;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: #efe7eb;
+  font-size: 18px;
+}
+
+.main-text {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.secondary-text {
+  margin: 10px 0px;
+  color: #efe7eb;
+  font-size: 18px;
+}
+
+#section-1 .sign-up-btn {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 25px;
+  border-radius: 10px;
+  border: 1px solid #3882f6;
+  color: #f9faf8;
+  margin: 10px 0px;
+}
+
+.img-placeholder {
+  border: 1px solid #1f2937;
+  background-color: #7b8fa1;
+  height: 70%;
+  width: 100%;
+}
+
+#section-2 {
+  height: 500px;
+  background-color: #f9faf8;
+}
+
+#section-2-header {
+  color: #1f2937;
+  font-size: 32px;
+  font-weight: bolder;
+  padding: 60px 0px;
+  text-align: center;
+}
+
+#section-2-main {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.section-2-box {
+  width: 180px;
+  min-width: 180px;
+}
+.section-2-box > .box-img {
+  height: 180px;
+  border: 3px solid #3882f6;
+  border-radius: 20px;
+}
+
+.section-2-box > .box-text {
+  margin: 16px 5px;
+  color: #1f2937;
+}
+
+#section-3 {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-3 > .quote-box {
+  color: #1f2937;
+  width: 60%;
+  min-width: 750px;
+}
+
+.quote-box > .quote-author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.quote-box > .quote {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 100;
+  margin-bottom: 24px;
+}
+
+#section-4 {
+  height: 320px;
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section-4 > .sign-up-box {
+  height: 150px;
+  background-color: #3882f6;
+  display: flex;
+  width: 70%;
+  min-width: 700px;
+  border-radius: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sign-up-text > div:first-child {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.sign-up-text > div:last-child {
+  color: #efe7eb;
+  font-size: 18px;
+}
+
+.sign-up-box .sign-up-btn {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 25px;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+}
+
+#footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-size: 18px;
+}
